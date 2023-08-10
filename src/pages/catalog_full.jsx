@@ -1,7 +1,7 @@
 import { Header } from "../components/Header"
 import { NextSeo } from "next-seo"
 import GameCatalog from "../components/home/GameCatalog"
-import { games } from "../data/full_game"
+import { games } from "../data/games"
 export default function CatalogFullPage() {
     const filtered = games.filter((game) => game.display == true);
     return <>
