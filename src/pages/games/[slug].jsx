@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import { games } from "../../data/games";
@@ -31,8 +31,25 @@ function GameDetailPlatformLink({ platform }) {
 }
 
 export default function Home({ game }) {
+	 const [isMediumScreen, setIsMediumScreen] = useState(false);
+
+  const checkScreenSize = () => {
+    setIsMediumScreen(window.innerWidth >= 768); // Adjust the breakpoint as needed
+  };
+
+  useEffect(() => {
+    checkScreenSize();
+    window.addEventListener('resize', checkScreenSize);
+
+    return () => {
+      window.removeEventListener('resize', checkScreenSize);
+    };
+  }, []);
+
+
 	return (
 		<>
+		 
 			<NextSeo
 				title={`${game.title} | Playtato`}
 				description={game.description}
@@ -40,12 +57,24 @@ export default function Home({ game }) {
 			<Header />
 			<main>
 				<div className="relative w-full h-96 -mt-20">
-					<Image
+					   {isMediumScreen ? (
+       
+          	<Image
 						className="w-full h-full object-cover"
 						src={game.banner}
 						layout="fill"
 						alt={`${game.title} banner`}
 					/>
+    
+        ) : (
+          <Image
+						className="w-full h-full object-cover"
+						src={game.bannerMob}
+						layout="fill"
+						alt={`${game.title} banner`}
+					/>
+        )}
+				
 
 				</div>
 

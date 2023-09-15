@@ -6,7 +6,8 @@ export const games = [
 		releaseYear: "2023",
 		slug: "dicebingo",
 		gradient: "from-sky-400 to-sky-600",
-		banner: "/img/games/dicebingo/DiceBingo_Banner_1170x780.jpg",
+		banner: "/img/games/dicebingo/Cover_Dicebingo01.jpg",
+		bannerMob: "/img/games/dicebingo/Cover_Dicebingo02.jpg",
 
 		screenshots: [
 			"/img/games/dicebingo/DiceBingo_Banner1920x1080_01.jpg",
@@ -47,8 +48,8 @@ export const games = [
 		releaseYear: "2023",
 		slug: "21pop",
 		gradient: "from-sky-400 to-sky-600",
-		banner: "/img/games/pop21/Pop21_Banner_1170x780.jpg",
-
+		banner: "/img/games/pop21/Cover_Pop2101.jpg",
+		bannerMob: "/img/games/pop21/Cover_Pop2102.jpg",
 		screenshots: [
 			"/img/games/pop21/Pop21_Banner_1920x1080_01.jpg",
 			"/img/games/pop21/Pop21_Banner_1920x1080_02.jpg",
@@ -171,7 +172,8 @@ export const games = [
 		releaseYear: "2021",
 		slug: "mahjong-fury",
 		gradient: "from-emerald-400 to-emerald-600",
-		banner: "/img/games/mahjong-fury/banner.jpg",
+		banner: "/img/games/mahjong-fury/Cover_Mahjong01.jpg",
+		bannerMob: "/img/games/mahjong-fury/Cover_Mahjong02.jpg",
 		video: "https://www.youtube.com/embed/VYVdzz7XMZo",
 		platforms: [{
 			name: 'ios',
@@ -225,7 +227,8 @@ export const games = [
 		releaseYear: "2020",
 		slug: "rummy-pop",
 		gradient: "from-sky-400 to-sky-600",
-		banner: "/img/games/rummy-pop/banner.jpg",
+		banner: "/img/games/rummy-pop/Cover_Rummypop01.jpg",
+		bannerMob: "/img/games/rummy-pop/Cover_Rummypop02.jpg",
 		video: "https://www.youtube.com/embed/O4mY6O6rjyU",
 		platforms: [{
 			name: 'ios',
