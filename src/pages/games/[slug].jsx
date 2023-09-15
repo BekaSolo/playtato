@@ -56,11 +56,11 @@ export default function Home({ game }) {
 			/>
 			<Header />
 			<main>
-				<div className="relative w-full h-96 -mt-20">
+				<div className="relative w-full lg:h-[600px] h-96 -mt-20">
 					   {isMediumScreen ? (
        
           	<Image
-						className="w-full h-full object-cover"
+						className="w-full h-full object-cover "
 						src={game.banner}
 						layout="fill"
 						alt={`${game.title} banner`}
@@ -83,9 +83,7 @@ export default function Home({ game }) {
 					className="px-4 sm:px-6 lg:px-8 py-20 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20"
 				>
 					<div className="flex-1 text-center max-w-3xl mx-auto lg:mx-0 lg:text-left">
-						<p className="uppercase tracking-wide font-bold text-sm text-cardinal-500 mb-2">
-							Released in {game.releaseYear}
-						</p>
+						
 						<h2 className="text-gray-900 text-3xl font-bold">{game.title}</h2>
 						<p className="text-lg mt-4">{game.description}</p>
 
