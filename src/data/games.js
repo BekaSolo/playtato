@@ -8,6 +8,7 @@ export const games = [
 		gradient: "from-sky-400 to-sky-600",
 		banner: "/img/games/dicebingo/Cover_Dicebingo01.jpg",
 		bannerMob: "/img/games/dicebingo/Cover_Dicebingo02.jpg",
+		video_alt: "/img/games/dicebingo/Cover_Dicebingo01.jpg",
 		screenshots: [
 			"/img/games/dicebingo/DiceBingo_Banner1920x1080_01.jpg",
 		],
