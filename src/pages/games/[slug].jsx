@@ -261,7 +261,7 @@ export default function Home({ game }) {
 															src={video.link}
 															className="w-full  aspect-video rounded-2xl shadow-md mb-2"
 															title={`${video.title} video`}
-															allow="accelerometer; autoplay; clipboard-write; encrypted-media;gyroscope; picture-in-picture; web-share"
+															
 														></iframe>
 														<p className="capitalize font-bold text-black	">{video.title}</p>					
 													</div>
