@@ -175,6 +175,28 @@ export const games = [
 		banner: "/img/games/mahjong-fury/Cover_Mahjong01.jpg",
 		bannerMob: "/img/games/mahjong-fury/Cover_Mahjong02.jpg",
 		video: "https://www.youtube.com/embed/VYVdzz7XMZo",
+		videos: [
+			{
+				title: "Fast & Intense",
+				link: "https://youtube.com/embed/OkTBKvIJh88?si=UGaG9XeTFmj_ND_r"
+			},
+			{
+				title: "Fast & Intense",
+				link: "https://youtube.com/embed/Lmo5M2HuLuE?si=98bQxEgEVdoy7Cmk"
+			},
+			{
+				title: "Fast & Intense",
+				link: "https://youtube.com/embed/hnUB3IJ-kT8?si=BVidfJAZZ71LgSNB"
+			},
+			{
+				title: "Fast & Intense",
+				link: "https://youtube.com/embed/TYj6axA_ggw?si=bKPflxOuiY9pwxDW"
+			},
+			{
+				title: "Fast & Intense",
+				link: "https://youtube.com/embed/iPoOHHvuOWs?si=JK4klOhupdbVjcyG"
+			},
+		],
 		platforms: [{
 			name: 'ios',
 			link: "https://apps.apple.com/sg/app/3p-mahjong-fury/id1535822665"

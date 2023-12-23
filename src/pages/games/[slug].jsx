@@ -251,44 +251,24 @@ export default function Home({ game }) {
 											<h1 className="text-gray-900 text-3xl font-bold text-center md:text-left">Videos</h1>
 										</div>
 										<div className="relative mx-auto flex-1 w-full mt-10 max-w-7xl px-4 md:px-6   lg:mt-0">
-											{game.video !== null &&
+											{game.videos !== null &&
 											<div className="mx-auto">
 											<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-8 pb-6">
-													<div>
-														<iframe
-															src={game.video}
-															className="w-full  aspect-video rounded-2xl shadow-md mb-2"
-															title={`${game.title} video`}
-														></iframe>
-														<p className="capitalize font-bold text-black	">basic gameplay</p>					
-													</div>
-													
-													<div>
-														<iframe
-															src={game.video}
-															className="w-full  aspect-video rounded-2xl shadow-md mb-2"
-															title={`${game.title} video`}
-														></iframe>
-														<p className="capitalize font-bold text-black	">complete guide to majhong <br /> fury combos</p>					
-													</div>
-													
+																								{game.videos.map((video) => {
+													return (
 														<div>
 														<iframe
-															src={game.video}
+															src={video.link}
 															className="w-full  aspect-video rounded-2xl shadow-md mb-2"
-															title={`${game.title} video`}
+															title={`${video.title} video`}
+															allow="accelerometer; autoplay; clipboard-write; encrypted-media;gyroscope; picture-in-picture; web-share"
 														></iframe>
-														<p className="capitalize font-bold text-black	">basic gameplay</p>					
+														<p className="capitalize font-bold text-black	">{video.title}</p>					
 													</div>
+													);
+												})}
+
 													
-													<div>
-														<iframe
-															src={game.video}
-															className="w-full  aspect-video rounded-2xl shadow-md mb-2"
-															title={`${game.title} video`}
-														></iframe>
-														<p className="capitalize font-bold text-black	">complete guide to majhong <br /> fury combos</p>					
-													</div>
 													
 											</div>
 											<LoadMoreButton/>
