@@ -177,23 +177,23 @@ export const games = [
 		video: "https://www.youtube.com/embed/VYVdzz7XMZo",
 		videos: [
 			{
-				title: "Fast & Intense",
+				title: "How to play Mahjong",
 				link: "https://youtube.com/embed/OkTBKvIJh88?si=UGaG9XeTFmj_ND_r"
 			},
 			{
-				title: "Fast & Intense",
+				title: " How to Hu",
 				link: "https://youtube.com/embed/Lmo5M2HuLuE?si=98bQxEgEVdoy7Cmk"
 			},
 			{
-				title: "Fast & Intense",
+				title: " How to count Fans (Part 1)",
 				link: "https://youtube.com/embed/hnUB3IJ-kT8?si=BVidfJAZZ71LgSNB"
 			},
 			{
-				title: "Fast & Intense",
+				title: " How to count Fans (Part 2)",
 				link: "https://youtube.com/embed/TYj6axA_ggw?si=bKPflxOuiY9pwxDW"
 			},
 			{
-				title: "Fast & Intense",
+				title: "How to play Bloodbath mode",
 				link: "https://youtube.com/embed/iPoOHHvuOWs?si=JK4klOhupdbVjcyG"
 			},
 		],
