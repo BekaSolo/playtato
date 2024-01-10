@@ -271,7 +271,6 @@ export default function Home({ game }) {
 													
 													
 											</div>
-											<LoadMoreButton/>
 											</div>
 											}
 
